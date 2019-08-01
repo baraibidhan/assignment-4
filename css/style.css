@@ -1,0 +1,455 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	float: left;
+	background: #87509C;
+	padding: 10px 0px;
+
+}
+
+.logo {
+
+width: 30%;
+
+float: left;
+}
+
+.logo img {
+
+display: block;
+
+max-width: 100%;
+}
+
+.menu {
+
+width: 70%;
+
+float: left;
+
+}
+
+nav ul {
+
+list-style: none;
+}
+
+nav ul li{
+	
+display: inline-block;
+	
+margin: 10px 56px;
+transition: 0.8s;
+}
+
+nav ul li:hover {
+	background-color: green;
+
+}
+
+nav ul li a{
+	
+text-decoration: none;
+	
+color: #fff;
+}
+
+.header-content {
+
+padding-top: 100px;
+
+width: 600px;
+
+margin: 0 auto;
+
+text-align: center;
+
+padding-bottom: 63px;
+}
+
+.header-content h2{
+
+color: #fff;
+
+line-height: 33px;
+
+font-size: 27px;
+}
+
+.btn {
+	
+margin: 10px;
+	
+background: #EB7D4B;
+	
+padding: 10px 20px;
+	
+border: none;
+transition: 0.4s ease-in-out;
+	
+
+}
+
+.btn:hover {
+	box-shadow: 0px 3px 0px #a25532;
+
+}
+
+.service {
+    background: #17C2A4;
+    width: 100%;
+    float: left;
+}
+
+.service-tittle {
+
+width: 600px;
+
+margin: 0 auto;
+
+text-align: center;
+}
+
+.service-tittle h2{
+	
+}
+
+.underline {
+	
+border-bottom: 2px solid #161616;
+	
+display: block;
+	
+width: 66px;
+	
+margin: 13px auto;
+}
+
+
+.service-tittle p{
+text-align: center; 
+	
+}
+
+.service-one {
+	width: 25%;
+	margin: 0 auto;
+	float: left;
+
+}
+
+.service-one img{
+	margin: 10px;
+	padding: 10px;
+	
+}
+
+
+
+.service-one h3{
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+	
+}
+
+.service-one p{
+	text-align: center;
+	margin: 10px;
+	padding: 5px 5px;
+	
+}
+.potential{
+	width: 100%;
+	background: gray;
+	float: left;
+}
+.introduction-one{
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding: 20px 25px;
+
+}
+.introduction-one img{
+	display: block;
+	max-width: 100%;
+
+}
+.introduction-one h1{
+
+}
+.introduction-one span{
+
+}
+.introduction-one p{
+
+}
+.introduction-one ul{
+
+}
+.introduction-one ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px; 
+
+}
+.introduction-one ul li a{
+
+}
+.container-title h4{
+	text-align: center;
+	font-size: x-large;
+	color: white;
+	margin-top: 30px;
+
+}
+.container-title p{
+	text-align: center;
+	font-size: large;
+	margin-top: 10px;
+}
+.introduction{
+	margin-top: 30px;
+}
+.skills{
+	width: 100%;
+	float: left;
+	background:#FFFFFF;
+}
+.skills-one{
+	width: 21%;
+	float: left;
+	margin: 20px; 
+}
+
+
+.skills-one h2{
+	margin-top: 20px;
+}
+.skills-control h1{
+	text-align: center;
+	font-size: x-large;
+	color: skyblue;
+	margin-top: 30px;
+	text-transform:uppercase;
+
+	
+	font-weight: bold;
+
+}
+.skills-control p{
+	text-align: center;
+	margin-top: 30px;
+	font-size: larger;
+
+}
+.Portfolio{
+	width: 100%;
+	background-color: #FFDC98;
+	float: left;
+
+}
+.Portfolio-skil h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: blue;
+	font-size: x-large;
+	margin-top: 30px;
+
+
+}
+.Portfolio-skil span{
+	display: block;
+	border: 2px solid red;
+	width: 150px;
+
+}
+.Portfolio-skil p{
+	text-align: center;
+	text-transform: lowercase;
+	font-weight: bold;
+	font-size: x-large;
+}
+.btn-2{
+	margin: 50px;
+	font-size: x-large;
+	text-transform: uppercase;
+	color: black;
+	background-color: cyan;
+}
+.Portfolio-skil{
+	text-align: center;
+}
+.btn-2:hover{
+	background:green ;
+	transition: 0.5s;
+}
+.portfolio-pic{
+	width: 45%;
+	float: left;
+	margin: 20px;
+}
+.portfolio-pic h3{
+	text-transform: uppercase;
+	margin: 20px;
+	text-align: center;
+
+}
+.button{
+	text-align: center;
+
+}
+.btn-3{
+	background-color: #5A80D0;
+	text-transform: uppercase;
+	border: 3px solid green;
+	padding: 10px 10px;
+	margin: 20px;
+	font-size: x-large;
+
+}
+.btn-3:hover{
+	transition: 1s ease-in-out;
+	color: #D74680;
+}
+
+.about{
+	width: 100%;
+	float: left;
+	background-color:#D74680;
+}
+.about-control{
+	text-align: center;
+	margin: 30px;
+}
+.about-control h4{
+	text-transform: uppercase;
+	color: white;
+	font-size: x-large;
+	font-weight: bold;
+}
+.about-control span{
+	width: 150px;
+	
+
+}
+.about-control p{
+	color: white;
+	font-size: large;
+}
+.ceo-one{
+	width: 43%;
+	float: left;
+margin: 30px;
+
+
+}
+.ceo-one img{
+	width: 35%;
+	float: left;
+}
+.ceo-one p{
+	margin: 20px 30px;
+	color: white;
+	font-size: large;
+
+}
+.ceo-one h5{
+	text-transform: uppercase;
+	font-size: xx-large;
+	color: white;
+
+}
+.ceo-one i{
+	text-transform: uppercase;
+	font-size: large;
+	color: yellow;
+
+
+}
+.Contact{
+	width: 100%;
+	float: left;
+	background-color:#0D3252; 
+}
+.contact-one{
+	text-align: center;
+	margin-top: 30px;
+}
+.contact-one h6{
+	font-size: x-large;
+	text-transform: uppercase;
+	color: #D3D3D3;
+}
+.contact-one span{
+	width: 100px;
+
+
+}
+.contact-one address{
+	font-size: large;
+	color:#D3D3D3;
+	margin-top: 10px;
+
+}
+.form{
+	text-align: center;
+	margin-top: 30px;
+}
+.form-control{
+	width: 200px;
+	padding: 10px;
+	margin: 0 10px;
+	background-color:#D0D1D2;
+	text-align: center;
+	font-size: large;
+
+}
+.text-control{
+	margin:20px 0 20px 0;
+	text-align: center;
+	background-color:#D0D1D2;
+	font-size: large;
+
+
+}
+.btn-4{
+	padding: 10px 20px;
+	margin-bottom: 40px;
+	background-color:#17C2A4;
+	color: white;
+	font-size: large;
+}
+.btn-4:hover{
+	transition: 1s ease-in-out;
+	color: green;
+	background: yellow;
+}
+footer{
+	width: 100%;
+	float: left;
+	background: #3C5499;
+
+}
+.footer-control{
+	margin: 30px 0 40px;
+}
+.social-one:hover{
+	background-color: red;
+	transition: 2s ease-in-out;
+	
+
+}
+
+
+
